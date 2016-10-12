@@ -53,8 +53,8 @@
 		2DB2EA281BECBE6700D58F6A /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA141BECBE6700D58F6A /* UIScrollView+MJRefresh.m */; };
 		2DB2EA291BECBE6700D58F6A /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA161BECBE6700D58F6A /* UIView+MJExtension.m */; };
 		E08413A11DAE129500B09E8B /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = E08413A01DAE129500B09E8B /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413A51DAE129500B09E8B /* Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E084139E1DAE129500B09E8B /* Framework.framework */; };
-		E08413A61DAE129500B09E8B /* Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E084139E1DAE129500B09E8B /* Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E08413A51DAE129500B09E8B /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E084139E1DAE129500B09E8B /* MJRefresh.framework */; };
+		E08413A61DAE129500B09E8B /* MJRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E084139E1DAE129500B09E8B /* MJRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E08413AB1DAE12F300B09E8B /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB2E9EC1BECBE6700D58F6A /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E08413AC1DAE12F300B09E8B /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2E9ED1BECBE6700D58F6A /* MJRefreshAutoFooter.m */; };
 		E08413AD1DAE12F300B09E8B /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB2E9EE1BECBE6700D58F6A /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -161,7 +161,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E08413A61DAE129500B09E8B /* Framework.framework in Embed Frameworks */,
+				E08413A61DAE129500B09E8B /* MJRefresh.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +269,7 @@
 		2DB2EA141BECBE6700D58F6A /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		2DB2EA151BECBE6700D58F6A /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		2DB2EA161BECBE6700D58F6A /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
-		E084139E1DAE129500B09E8B /* Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E084139E1DAE129500B09E8B /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08413A01DAE129500B09E8B /* Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Framework.h; sourceTree = "<group>"; };
 		E08413A21DAE129500B09E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -279,7 +279,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08413A51DAE129500B09E8B /* Framework.framework in Frameworks */,
+				E08413A51DAE129500B09E8B /* MJRefresh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +388,7 @@
 			children = (
 				2DA7F9251AA6B4C4005627AB /* MJRefreshExample.app */,
 				2DA7F93E1AA6B4C4005627AB /* MJRefreshExampleTests.xctest */,
-				E084139E1DAE129500B09E8B /* Framework.framework */,
+				E084139E1DAE129500B09E8B /* MJRefresh.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -638,9 +638,9 @@
 			productReference = 2DA7F93E1AA6B4C4005627AB /* MJRefreshExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E084139D1DAE129500B09E8B /* Framework */ = {
+		E084139D1DAE129500B09E8B /* MJRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E08413A91DAE129500B09E8B /* Build configuration list for PBXNativeTarget "Framework" */;
+			buildConfigurationList = E08413A91DAE129500B09E8B /* Build configuration list for PBXNativeTarget "MJRefresh" */;
 			buildPhases = (
 				E08413991DAE129500B09E8B /* Sources */,
 				E084139A1DAE129500B09E8B /* Frameworks */,
@@ -652,9 +652,9 @@
 			);
 			dependencies = (
 			);
-			name = Framework;
+			name = MJRefresh;
 			productName = Framework;
-			productReference = E084139E1DAE129500B09E8B /* Framework.framework */;
+			productReference = E084139E1DAE129500B09E8B /* MJRefresh.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -694,7 +694,7 @@
 			targets = (
 				2DA7F9241AA6B4C4005627AB /* MJRefreshExample */,
 				2DA7F93D1AA6B4C4005627AB /* MJRefreshExampleTests */,
-				E084139D1DAE129500B09E8B /* Framework */,
+				E084139D1DAE129500B09E8B /* MJRefresh */,
 			);
 		};
 /* End PBXProject section */
@@ -839,7 +839,7 @@
 		};
 		E08413A41DAE129500B09E8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E084139D1DAE129500B09E8B /* Framework */;
+			target = E084139D1DAE129500B09E8B /* MJRefresh */;
 			targetProxy = E08413A31DAE129500B09E8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1084,7 +1084,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E08413A91DAE129500B09E8B /* Build configuration list for PBXNativeTarget "Framework" */ = {
+		E08413A91DAE129500B09E8B /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E08413A71DAE129500B09E8B /* Debug */,
