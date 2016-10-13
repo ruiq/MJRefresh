@@ -135,6 +135,7 @@
 		E08413F91DAE138A00B09E8B /* MJTestViewController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9BEB051BB15F4A00AED473 /* MJTestViewController.xib */; };
 		E08413FA1DAE138A00B09E8B /* MJWebViewViewController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9BEB081BB15F4A00AED473 /* MJWebViewViewController.xib */; };
 		E08413FB1DAE139400B09E8B /* MJRefresh.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DB2EA0D1BECBE6700D58F6A /* MJRefresh.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E08414141DAF9BB000B09E8B /* UIScrollView+MJRefresh.h in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA131BECBE6700D58F6A /* UIScrollView+MJRefresh.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -789,6 +790,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08414141DAF9BB000B09E8B /* UIScrollView+MJRefresh.h in Sources */,
 				E08413ED1DAE131A00B09E8B /* MJTempViewController.m in Sources */,
 				E08413C21DAE12FF00B09E8B /* MJRefreshGifHeader.m in Sources */,
 				E08413D11DAE130900B09E8B /* NSBundle+MJRefresh.m in Sources */,
