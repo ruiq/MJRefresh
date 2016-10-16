@@ -94,46 +94,8 @@
 		E08413CF1DAE130900B09E8B /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA161BECBE6700D58F6A /* UIView+MJExtension.m */; };
 		E08413D01DAE130900B09E8B /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4698841D0EE6A400CB8025 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E08413D11DAE130900B09E8B /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4698851D0EE6A400CB8025 /* NSBundle+MJRefresh.m */; };
-		E08413D21DAE130D00B09E8B /* UIViewController+Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEADF1BB15F4A00AED473 /* UIViewController+Example.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413D31DAE130D00B09E8B /* UIViewController+Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAE01BB15F4A00AED473 /* UIViewController+Example.m */; };
-		E08413D41DAE131100B09E8B /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAFC1BB15F4A00AED473 /* AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413D51DAE131100B09E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAFD1BB15F4A00AED473 /* AppDelegate.m */; };
-		E08413D61DAE131500B09E8B /* MJChiBaoZiFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAE21BB15F4A00AED473 /* MJChiBaoZiFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413D71DAE131500B09E8B /* MJChiBaoZiFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAE31BB15F4A00AED473 /* MJChiBaoZiFooter.m */; };
-		E08413D81DAE131500B09E8B /* MJChiBaoZiFooter2.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAE41BB15F4A00AED473 /* MJChiBaoZiFooter2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413D91DAE131500B09E8B /* MJChiBaoZiFooter2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAE51BB15F4A00AED473 /* MJChiBaoZiFooter2.m */; };
-		E08413DA1DAE131500B09E8B /* MJChiBaoZiHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAE61BB15F4A00AED473 /* MJChiBaoZiHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413DB1DAE131500B09E8B /* MJChiBaoZiHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAE71BB15F4A00AED473 /* MJChiBaoZiHeader.m */; };
-		E08413DC1DAE131500B09E8B /* MJDIYAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAE81BB15F4A00AED473 /* MJDIYAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413DD1DAE131500B09E8B /* MJDIYAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAE91BB15F4A00AED473 /* MJDIYAutoFooter.m */; };
-		E08413DE1DAE131500B09E8B /* MJDIYBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAEA1BB15F4A00AED473 /* MJDIYBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413DF1DAE131500B09E8B /* MJDIYBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAEB1BB15F4A00AED473 /* MJDIYBackFooter.m */; };
-		E08413E01DAE131500B09E8B /* MJDIYHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAEC1BB15F4A00AED473 /* MJDIYHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413E11DAE131500B09E8B /* MJDIYHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAED1BB15F4A00AED473 /* MJDIYHeader.m */; };
-		E08413E21DAE131A00B09E8B /* MJExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAEF1BB15F4A00AED473 /* MJExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413E31DAE131A00B09E8B /* MJExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAF01BB15F4A00AED473 /* MJExample.m */; };
-		E08413E41DAE131A00B09E8B /* MJExampleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAF11BB15F4A00AED473 /* MJExampleViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413E51DAE131A00B09E8B /* MJExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAF21BB15F4A00AED473 /* MJExampleViewController.m */; };
-		E08413E61DAE131A00B09E8B /* MJExampleWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAF31BB15F4A00AED473 /* MJExampleWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413E71DAE131A00B09E8B /* MJExampleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAF41BB15F4A00AED473 /* MJExampleWindow.m */; };
-		E08413E81DAE131A00B09E8B /* MJNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAF51BB15F4A00AED473 /* MJNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413E91DAE131A00B09E8B /* MJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAF61BB15F4A00AED473 /* MJNavigationController.m */; };
-		E08413EA1DAE131A00B09E8B /* MJSingleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAF71BB15F4A00AED473 /* MJSingleViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413EB1DAE131A00B09E8B /* MJSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAF81BB15F4A00AED473 /* MJSingleViewController.m */; };
-		E08413EC1DAE131A00B09E8B /* MJTempViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAF91BB15F4A00AED473 /* MJTempViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413ED1DAE131A00B09E8B /* MJTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEAFA1BB15F4A00AED473 /* MJTempViewController.m */; };
-		E08413EE1DAE131F00B09E8B /* MJCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEAFF1BB15F4A00AED473 /* MJCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413EF1DAE131F00B09E8B /* MJCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEB001BB15F4A00AED473 /* MJCollectionViewController.m */; };
-		E08413F01DAE131F00B09E8B /* MJTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEB011BB15F4A00AED473 /* MJTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413F11DAE131F00B09E8B /* MJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEB021BB15F4A00AED473 /* MJTableViewController.m */; };
-		E08413F21DAE131F00B09E8B /* MJTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEB031BB15F4A00AED473 /* MJTestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413F31DAE131F00B09E8B /* MJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEB041BB15F4A00AED473 /* MJTestViewController.m */; };
 		E08413F41DAE131F00B09E8B /* MJTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D9BEB051BB15F4A00AED473 /* MJTestViewController.xib */; };
-		E08413F51DAE131F00B09E8B /* MJWebViewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9BEB061BB15F4A00AED473 /* MJWebViewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08413F61DAE131F00B09E8B /* MJWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEB071BB15F4A00AED473 /* MJWebViewViewController.m */; };
 		E08413F71DAE131F00B09E8B /* MJWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D9BEB081BB15F4A00AED473 /* MJWebViewViewController.xib */; };
-		E08413F91DAE138A00B09E8B /* MJTestViewController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9BEB051BB15F4A00AED473 /* MJTestViewController.xib */; };
-		E08413FA1DAE138A00B09E8B /* MJWebViewViewController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9BEB081BB15F4A00AED473 /* MJWebViewViewController.xib */; };
 		E08413FB1DAE139400B09E8B /* MJRefresh.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DB2EA0D1BECBE6700D58F6A /* MJRefresh.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E08414141DAF9BB000B09E8B /* UIScrollView+MJRefresh.h in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA131BECBE6700D58F6A /* UIScrollView+MJRefresh.h */; };
 /* End PBXBuildFile section */
@@ -174,8 +136,6 @@
 			dstSubfolderSpec = 7;
 			files = (
 				E08413FB1DAE139400B09E8B /* MJRefresh.bundle in CopyFiles */,
-				E08413F91DAE138A00B09E8B /* MJTestViewController.xib in CopyFiles */,
-				E08413FA1DAE138A00B09E8B /* MJWebViewViewController.xib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,43 +517,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08413EC1DAE131A00B09E8B /* MJTempViewController.h in Headers */,
-				E08413DC1DAE131500B09E8B /* MJDIYAutoFooter.h in Headers */,
 				E08413C51DAE12FF00B09E8B /* MJRefreshStateHeader.h in Headers */,
-				E08413E61DAE131A00B09E8B /* MJExampleWindow.h in Headers */,
-				E08413EE1DAE131F00B09E8B /* MJCollectionViewController.h in Headers */,
 				E08413B71DAE12F700B09E8B /* MJRefreshAutoNormalFooter.h in Headers */,
-				E08413E41DAE131A00B09E8B /* MJExampleViewController.h in Headers */,
-				E08413D21DAE130D00B09E8B /* UIViewController+Example.h in Headers */,
 				E08413C11DAE12FF00B09E8B /* MJRefreshGifHeader.h in Headers */,
 				E08413B91DAE12F700B09E8B /* MJRefreshAutoStateFooter.h in Headers */,
 				E08413AD1DAE12F300B09E8B /* MJRefreshBackFooter.h in Headers */,
 				E08413CE1DAE130900B09E8B /* UIView+MJExtension.h in Headers */,
-				E08413F51DAE131F00B09E8B /* MJWebViewViewController.h in Headers */,
 				E08413AB1DAE12F300B09E8B /* MJRefreshAutoFooter.h in Headers */,
 				E08413C71DAE130900B09E8B /* MJRefresh.h in Headers */,
-				E08413D81DAE131500B09E8B /* MJChiBaoZiFooter2.h in Headers */,
 				E08413CC1DAE130900B09E8B /* UIScrollView+MJRefresh.h in Headers */,
 				E08413AF1DAE12F300B09E8B /* MJRefreshComponent.h in Headers */,
-				E08413E21DAE131A00B09E8B /* MJExample.h in Headers */,
 				E08413B31DAE12F300B09E8B /* MJRefreshHeader.h in Headers */,
 				E08413BF1DAE12FB00B09E8B /* MJRefreshBackStateFooter.h in Headers */,
-				E08413DE1DAE131500B09E8B /* MJDIYBackFooter.h in Headers */,
 				E08413CA1DAE130900B09E8B /* UIScrollView+MJExtension.h in Headers */,
-				E08413D61DAE131500B09E8B /* MJChiBaoZiFooter.h in Headers */,
-				E08413F01DAE131F00B09E8B /* MJTableViewController.h in Headers */,
-				E08413E81DAE131A00B09E8B /* MJNavigationController.h in Headers */,
 				E08413C81DAE130900B09E8B /* MJRefreshConst.h in Headers */,
 				E08413BD1DAE12FB00B09E8B /* MJRefreshBackNormalFooter.h in Headers */,
 				E08413B51DAE12F700B09E8B /* MJRefreshAutoGifFooter.h in Headers */,
 				E08413BB1DAE12FB00B09E8B /* MJRefreshBackGifFooter.h in Headers */,
-				E08413DA1DAE131500B09E8B /* MJChiBaoZiHeader.h in Headers */,
 				E08413D01DAE130900B09E8B /* NSBundle+MJRefresh.h in Headers */,
-				E08413E01DAE131500B09E8B /* MJDIYHeader.h in Headers */,
-				E08413EA1DAE131A00B09E8B /* MJSingleViewController.h in Headers */,
-				E08413F21DAE131F00B09E8B /* MJTestViewController.h in Headers */,
 				E08413B11DAE12F300B09E8B /* MJRefreshFooter.h in Headers */,
-				E08413D41DAE131100B09E8B /* AppDelegate.h in Headers */,
 				E08413C31DAE12FF00B09E8B /* MJRefreshNormalHeader.h in Headers */,
 				E08413A11DAE129500B09E8B /* Framework.h in Headers */,
 			);
@@ -791,43 +733,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				E08414141DAF9BB000B09E8B /* UIScrollView+MJRefresh.h in Sources */,
-				E08413ED1DAE131A00B09E8B /* MJTempViewController.m in Sources */,
 				E08413C21DAE12FF00B09E8B /* MJRefreshGifHeader.m in Sources */,
 				E08413D11DAE130900B09E8B /* NSBundle+MJRefresh.m in Sources */,
 				E08413B41DAE12F300B09E8B /* MJRefreshHeader.m in Sources */,
 				E08413C01DAE12FB00B09E8B /* MJRefreshBackStateFooter.m in Sources */,
-				E08413F11DAE131F00B09E8B /* MJTableViewController.m in Sources */,
-				E08413D71DAE131500B09E8B /* MJChiBaoZiFooter.m in Sources */,
-				E08413E31DAE131A00B09E8B /* MJExample.m in Sources */,
 				E08413C41DAE12FF00B09E8B /* MJRefreshNormalHeader.m in Sources */,
-				E08413E91DAE131A00B09E8B /* MJNavigationController.m in Sources */,
 				E08413B61DAE12F700B09E8B /* MJRefreshAutoGifFooter.m in Sources */,
 				E08413AE1DAE12F300B09E8B /* MJRefreshBackFooter.m in Sources */,
-				E08413DD1DAE131500B09E8B /* MJDIYAutoFooter.m in Sources */,
-				E08413EB1DAE131A00B09E8B /* MJSingleViewController.m in Sources */,
 				E08413B21DAE12F300B09E8B /* MJRefreshFooter.m in Sources */,
-				E08413E11DAE131500B09E8B /* MJDIYHeader.m in Sources */,
 				E08413BC1DAE12FB00B09E8B /* MJRefreshBackGifFooter.m in Sources */,
 				E08413BE1DAE12FB00B09E8B /* MJRefreshBackNormalFooter.m in Sources */,
 				E08413C61DAE12FF00B09E8B /* MJRefreshStateHeader.m in Sources */,
-				E08413F61DAE131F00B09E8B /* MJWebViewViewController.m in Sources */,
-				E08413E71DAE131A00B09E8B /* MJExampleWindow.m in Sources */,
 				E08413CD1DAE130900B09E8B /* UIScrollView+MJRefresh.m in Sources */,
 				E08413BA1DAE12F700B09E8B /* MJRefreshAutoStateFooter.m in Sources */,
-				E08413D31DAE130D00B09E8B /* UIViewController+Example.m in Sources */,
 				E08413AC1DAE12F300B09E8B /* MJRefreshAutoFooter.m in Sources */,
 				E08413CF1DAE130900B09E8B /* UIView+MJExtension.m in Sources */,
 				E08413CB1DAE130900B09E8B /* UIScrollView+MJExtension.m in Sources */,
-				E08413DF1DAE131500B09E8B /* MJDIYBackFooter.m in Sources */,
 				E08413B81DAE12F700B09E8B /* MJRefreshAutoNormalFooter.m in Sources */,
-				E08413E51DAE131A00B09E8B /* MJExampleViewController.m in Sources */,
 				E08413B01DAE12F300B09E8B /* MJRefreshComponent.m in Sources */,
-				E08413D91DAE131500B09E8B /* MJChiBaoZiFooter2.m in Sources */,
-				E08413F31DAE131F00B09E8B /* MJTestViewController.m in Sources */,
 				E08413C91DAE130900B09E8B /* MJRefreshConst.m in Sources */,
-				E08413EF1DAE131F00B09E8B /* MJCollectionViewController.m in Sources */,
-				E08413DB1DAE131500B09E8B /* MJChiBaoZiHeader.m in Sources */,
-				E08413D51DAE131100B09E8B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
