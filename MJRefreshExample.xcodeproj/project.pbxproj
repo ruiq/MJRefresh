@@ -52,6 +52,10 @@
 		2DB2EA271BECBE6700D58F6A /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA121BECBE6700D58F6A /* UIScrollView+MJExtension.m */; };
 		2DB2EA281BECBE6700D58F6A /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA141BECBE6700D58F6A /* UIScrollView+MJRefresh.m */; };
 		2DB2EA291BECBE6700D58F6A /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA161BECBE6700D58F6A /* UIView+MJExtension.m */; };
+		E00B11621DC0B05600C20658 /* MJMyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E00B11611DC0B05600C20658 /* MJMyView.m */; };
+		E00B11641DC0B06400C20658 /* MJMyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00B11631DC0B06400C20658 /* MJMyView.xib */; };
+		E00B11661DC0B0FD00C20658 /* Test.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00B11651DC0B0FD00C20658 /* Test.xib */; };
+		E039D7101DD6B7AC00E23580 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2EA0D1BECBE6700D58F6A /* MJRefresh.bundle */; };
 		E08413A11DAE129500B09E8B /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = E08413A01DAE129500B09E8B /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E08413A51DAE129500B09E8B /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E084139E1DAE129500B09E8B /* MJRefresh.framework */; };
 		E08413A61DAE129500B09E8B /* MJRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E084139E1DAE129500B09E8B /* MJRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -96,7 +100,6 @@
 		E08413D11DAE130900B09E8B /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4698851D0EE6A400CB8025 /* NSBundle+MJRefresh.m */; };
 		E08413F41DAE131F00B09E8B /* MJTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D9BEB051BB15F4A00AED473 /* MJTestViewController.xib */; };
 		E08413F71DAE131F00B09E8B /* MJWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D9BEB081BB15F4A00AED473 /* MJWebViewViewController.xib */; };
-		E08413FB1DAE139400B09E8B /* MJRefresh.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DB2EA0D1BECBE6700D58F6A /* MJRefresh.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E08414141DAF9BB000B09E8B /* UIScrollView+MJRefresh.h in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA131BECBE6700D58F6A /* UIScrollView+MJRefresh.h */; };
 /* End PBXBuildFile section */
 
@@ -135,7 +138,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				E08413FB1DAE139400B09E8B /* MJRefresh.bundle in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +232,10 @@
 		2DB2EA141BECBE6700D58F6A /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		2DB2EA151BECBE6700D58F6A /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		2DB2EA161BECBE6700D58F6A /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		E00B11601DC0B05600C20658 /* MJMyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMyView.h; sourceTree = "<group>"; };
+		E00B11611DC0B05600C20658 /* MJMyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMyView.m; sourceTree = "<group>"; };
+		E00B11631DC0B06400C20658 /* MJMyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJMyView.xib; sourceTree = "<group>"; };
+		E00B11651DC0B0FD00C20658 /* Test.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test.xib; sourceTree = "<group>"; };
 		E084139E1DAE129500B09E8B /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08413A01DAE129500B09E8B /* Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Framework.h; sourceTree = "<group>"; };
 		E08413A21DAE129500B09E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -304,6 +310,7 @@
 				2D9BEAF81BB15F4A00AED473 /* MJSingleViewController.m */,
 				2D9BEAF91BB15F4A00AED473 /* MJTempViewController.h */,
 				2D9BEAFA1BB15F4A00AED473 /* MJTempViewController.m */,
+				E00B11651DC0B0FD00C20658 /* Test.xib */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -402,6 +409,9 @@
 				2D9BEAE11BB15F4A00AED473 /* DIY */,
 				2D9BEAEE1BB15F4A00AED473 /* First */,
 				2D9BEAFE1BB15F4A00AED473 /* Second */,
+				E00B11601DC0B05600C20658 /* MJMyView.h */,
+				E00B11611DC0B05600C20658 /* MJMyView.m */,
+				E00B11631DC0B06400C20658 /* MJMyView.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -648,11 +658,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DA7F9341AA6B4C4005627AB /* Main.storyboard in Resources */,
+				E00B11661DC0B0FD00C20658 /* Test.xib in Resources */,
 				2D9BEB1C1BB15F4A00AED473 /* MJWebViewViewController.xib in Resources */,
 				2DB2EA251BECBE6700D58F6A /* MJRefresh.bundle in Resources */,
 				2DA7F9391AA6B4C4005627AB /* LaunchScreen.xib in Resources */,
 				2D9BEB1A1BB15F4A00AED473 /* MJTestViewController.xib in Resources */,
 				2DA7F9361AA6B4C4005627AB /* Images.xcassets in Resources */,
+				E00B11641DC0B06400C20658 /* MJMyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +679,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E039D7101DD6B7AC00E23580 /* MJRefresh.bundle in Resources */,
 				E08413F41DAE131F00B09E8B /* MJTestViewController.xib in Resources */,
 				E08413F71DAE131F00B09E8B /* MJWebViewViewController.xib in Resources */,
 			);
@@ -681,6 +694,7 @@
 			files = (
 				2DB2EA181BECBE6700D58F6A /* MJRefreshBackFooter.m in Sources */,
 				2D4698861D0EE6A400CB8025 /* NSBundle+MJRefresh.m in Sources */,
+				E00B11621DC0B05600C20658 /* MJMyView.m in Sources */,
 				2DB2EA1A1BECBE6700D58F6A /* MJRefreshFooter.m in Sources */,
 				2D9BEB0F1BB15F4A00AED473 /* MJDIYHeader.m in Sources */,
 				2D9BEB181BB15F4A00AED473 /* MJTableViewController.m in Sources */,
